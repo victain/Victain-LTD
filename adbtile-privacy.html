@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ADB Tile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 { color: #1a1a1a; }
+        h2 { color: #333; margin-top: 30px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>ADB Tile</strong><br>
+    Last updated: May 2025</p>
+
+    <p>This privacy policy describes how ADB Tile ("the App") handles your information.</p>
+
+    <h2>Information We Collect</h2>
+    <p>The App does not collect, store, transmit, or share any personal data. All information the App reads stays entirely on your device.</p>
+
+    <h2>Local Device Access</h2>
+    <p>To function, ADB Tile reads the following from your device only:</p>
+    <ul>
+        <li><strong>Wireless debugging state</strong> – whether Android wireless debugging is currently enabled, read from system settings.</li>
+        <li><strong>Local IP address</strong> – your device's current Wi-Fi IP address, used to display the ADB connect string.</li>
+        <li><strong>ADB port</strong> – the port Android assigns for wireless debugging, detected via system settings or local mDNS.</li>
+    </ul>
+    <p>None of this information is sent off your device.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+        <li><code>ACCESS_WIFI_STATE</code> – read your local Wi-Fi IP address.</li>
+        <li><code>INTERNET</code> – required for mDNS service discovery on the local network to detect the ADB port. No data is sent to the internet.</li>
+        <li><code>POST_NOTIFICATIONS</code> – show a brief confirmation when the connect string is copied to the clipboard.</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>The App does not use any third-party SDKs, analytics, advertising, or crash-reporting services.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>ADB Tile is a developer tool intended for adults. It does not knowingly collect any data from children under 13.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this policy changes, the updated version will be published at this URL with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please contact us at <a href="mailto:victain@mail.com">victain@mail.com</a> or visit <a href="https://www.victain.org">victain.org</a>.</p>
+
+    <p><em>&copy; 2025 Victain LTD. All rights reserved.</em></p>
+</body>
+</html>
